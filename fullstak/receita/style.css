@@ -62,3 +62,16 @@ ul {
   padding-left: 24px;
 
 }
+
+footer{
+  color: #F0E8C2;
+  font-size: 16px;
+
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+footer img {
+  vertical-align: middle;
+
+}
