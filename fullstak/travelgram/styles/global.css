@@ -7,7 +7,7 @@
 :root {
 
   --brand-color: #EF5F4C;
-  background-color: #FFFFFF;
+  --background-color: #FFFFFF;
   --surface-color: #F5F5F5;
   --skeleton-color: #D9D9D9;
   --shape-transparency: #ffffff90 ;
@@ -23,6 +23,7 @@
 body {
   font: var(--text );
   color: var(--text-color-secondary);
+  background-color: var(--background-color);
 }
 
 a {
