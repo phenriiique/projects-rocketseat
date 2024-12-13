@@ -5,7 +5,7 @@
 }
 
 :root {
-  font-family: "Poppins", serif;
+
   --brand-color: #EF5F4C;
   background-color: #FFFFFF;
   --surface-color: #F5F5F5;
@@ -13,8 +13,14 @@
   --shape-transparency: #ffffff90 ;
   --text-color-primary: #313131;
   --text-color-secondary: #6C6C6C;
+  --font-family: "Poppins", serif;
+  --text-lg: bold 32px/125% var(--font-family);
+  --text: 16px/150% var(--font-family);
+  --text-md: regular 14px/170% var(--font-family);
+  --text-sm: regular 12px/170% var(--font-family);  
 }
 
 body {
+  font: var(--text );
   color: var(--text-color-secondary);
 }
